@@ -1,0 +1,22 @@
+:root {
+  --def-font-family: Consolas, Menlo, Monaco, "Courier New", monospace;
+  --base-color: #33a06f;
+}
+
+body {
+  font-family: var(--def-font-family)
+}
+
+body,
+h1 {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
